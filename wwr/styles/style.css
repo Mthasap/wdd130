@@ -47,6 +47,7 @@ padding: 35px;
 text-decoration: none;
 
 }
+footer p a:hover {text-decoration: underline;}
 .card-image {border: 10px solid black;}
 .home-tittle {background-color: white;
 color: black;
@@ -62,14 +63,16 @@ color: black;
 font-size: 8em;
 padding-bottom: 15px;}
 footer a {background-color: white;
-color: black;}
+color: black;
+text-decoration: none;}
 footer a:hover {background-color: white;
 color: black;}
 #hero-msg h1, #hero-msg h4 {text-align: center;}
 .button-box {text-align: center;}
 main section {text-align: center;}
 main section img {box-sizing: border-box;}
-#background {height: 725px;}
+#background {background-color: snow;
+  height: 725px;}
 body {background-color: white;
   font-family: raleway, Arial, Helvetica, sans-serif;
   font-size: 22px;
@@ -81,13 +84,13 @@ nav a:hover {background-color: darkgray;
 color: blue;}
 .book, .join {background-color: skyblue;
 color: black;
+text-decoration: none;
 font-size: 18em;
 padding: 15px 30px;
 margin-top: 50px;
 border-radius: 5px;}
 .book:hover, .join:hover {background-color: darkgray;
 color: black;}
-#background {background-color: white;}
 .msg {background-color: black;
 line-height: 1.5em;
 padding: 35px;}
@@ -164,6 +167,7 @@ p.colored {
   font-family: 'rock salt', 'bradley hand', sans-serif;
   font-size: 2em;
 }
+#hero-img {width: 100%;}
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
@@ -174,6 +178,7 @@ nav  {
   list-style-type: none;
   display: flex;
 }
+.logo {width: 80px;}
 nav a {
   padding:1em;
   min-width: 120px;
