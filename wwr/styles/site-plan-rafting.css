@@ -3,11 +3,11 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 
-  @import url('https://fonts.googleapis.com/css2?family=Hind&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Rowdies:wght@300&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #4A7C59   ;
+  --primary-color: #ADD8E6   ;
   --secondary-color: #68B0AB ;
   --accent1-color: #8FC0A9;
   --accent2-color: #5B5B5B;
@@ -20,7 +20,7 @@ Fonts are separated by a & */
   --headline-color-on-white: #185177;  /* headlines on a white background */ 
   --headline-color-on-color: rgb(255, 255, 255); /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #25bbc9; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
   --nav-link-color: #396E94;
   --nav-background-color: #B5B3D1;
@@ -38,6 +38,63 @@ body {
   font-size: 18px;
   text-align: center;
 }
+body div {max-width: 1600px;}
+#content{margin: 0 auto;}
+nav a {text-align: center;
+background-color: lightblue;
+color: gray;
+padding: 35px;
+text-decoration: none;
+
+}
+.card-image {border: 10px solid black;}
+.home-tittle {background-color: white;
+color: black;
+font: 'rock salt', 'bradley hand', sans-serif;
+font-size: 2em;
+margin-top: 10px;}
+h4 {background-color: navy;
+color: lightblue;}
+.msg h2 {background-color: white;
+color: lightseagreen;}
+.msg p {background-color: white;
+color: black;
+font-size: 8em;
+padding-bottom: 15px;}
+footer a {background-color: white;
+color: black;}
+footer a:hover {background-color: white;
+color: black;}
+#hero-msg h1, #hero-msg h4 {text-align: center;}
+.button-box {text-align: center;}
+main section {text-align: center;}
+main section img {box-sizing: border-box;}
+#background {height: 725px;}
+body {background-color: white;
+  font-family: raleway, Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+header {background-color: blue;}
+nav a:hover {background-color: darkgray;
+color: blue;}
+.book, .join {background-color: skyblue;
+color: black;
+font-size: 18em;
+padding: 15px 30px;
+margin-top: 50px;
+border-radius: 5px;}
+.book:hover, .join:hover {background-color: darkgray;
+color: black;}
+#background {background-color: white;}
+.msg {background-color: black;
+line-height: 1.5em;
+padding: 35px;}
+footer {background-color: lightblue;
+color: darkgrey;
+padding: 25px 50px;
+margin-top: 200px;}
 img {
   display: block;
   margin: 0 auto;
@@ -49,12 +106,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
 hr {
   height: 3px;
   margin: 35px 0;
   background: var(--accent1-color);
 }
+footer
+  {background-color: #016064;
+  color: white;}
+footer p {padding: 25px;}
 header {
   padding: 1em;
   text-align: center;
@@ -98,6 +160,10 @@ p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
+.home-tittle {
+  font-family: 'rock salt', 'bradley hand', sans-serif;
+  font-size: 2em;
+}
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
@@ -112,7 +178,7 @@ nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+  padding: 35px;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
