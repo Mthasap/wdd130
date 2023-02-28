@@ -40,64 +40,103 @@ body {
 }
 body div {max-width: 1600px;}
 #content{margin: 0 auto;}
-nav a {text-align: center;
-background-color: #E2D1F9;
-color: cyan;
-padding: 35px;
-text-decoration: none;
+nav a {
+  text-align: center;
+  background-color: #E2D1F9;
+  color: cyan;
+  padding: 35px;
+  text-decoration: none;
 
 }
 footer p a:hover {text-decoration: underline;}
-.card-image {border: 10px solid black;}
-.home-tittle {background-color: white;
-color: black;
-font: 'rock salt', 'bradley hand', sans-serif;
-font-size: 2em;
-margin-top: 10px;}
-h4 {background-color: navy;
-color: lightblue;}
-.msg h2 {background-color: white;
-color: lightseagreen;}
-.msg p {background-color: white;
-color: black;
-font-size: 8em;
-padding-bottom: 15px;}
-footer a {background-color: white;
-color: black;
-text-decoration: none;}
-footer a:hover {background-color: white;
-color: black;}
+.card-image {
+  border: 10px solid black;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+  opacity: .6;
+  transform: scale(1.1);
+}
+.home-tittle {
+  background-color: white;
+  color: black;
+  font: 'rock salt', 'bradley hand', sans-serif;
+  font-size: 2em;
+  margin-top: 10px;}
+h4 {
+  background-color: navy;
+  color: lightblue;
+}
+.msg h2 {
+  background-color: white;
+  color: lightseagreen;
+}
+.msg p {
+  background-color: white;
+  color: black;
+  font-size: 8em;
+  padding-bottom: 15px;
+}
+footer a { 
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+footer a:hover {
+  background-color: white;
+  color: black;
+}
 #hero-msg h1, #hero-msg h4 {text-align: center;}
 .button-box {text-align: center;}
 main section {text-align: center;}
 main section img {box-sizing: border-box;}
-#background {background-color: snow;
+#background {
+  background-color: snow;
   height: 725px;}
-body {background-color: white;
+body {
+  background-color: white;
   font-family: raleway, Arial, Helvetica, sans-serif;
   font-size: 22px;
   margin: 0;
   padding: 0;
 }
 header {background-color: white;}
-nav a:hover {background-color: white;
-color: blue;}
-.book, .join {background-color: skyblue;
-color: black;
-text-decoration: none;
-font-size: 18em;
-padding: 15px 30px;
-margin-top: 50px;
-border-radius: 5px;}
-.book:hover, .join:hover {background-color: darkgray;
-color: black;}
-.msg {background-color: black;
-line-height: 1.5em;
-padding: 35px;}
-footer {background-color: lightblue;
-color: darkgrey;
-padding: 25px 50px;
-margin-top: 200px;}
+nav a:hover {
+  background-color: white;
+  color: blue;
+}
+.book, .join {
+  background-color: skyblue;
+  color: black;
+  text-decoration: none;
+  font-size: 18em;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.book:hover, .join:hover {
+  background-color: darkgray;
+  color: black;
+}
+.msg {
+  background-color: black;
+  line-height: 1.5em;
+  padding: 35px;
+  grid-column: 6/10;
+  grid-row: 6/7;
+  box-shadow: 5px 5px 10px #6f7364;
+
+}
+footer {
+  background-color: lightblue;
+  color: darkgrey;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 img {
   display: block;
   margin: 0 auto;
@@ -116,9 +155,10 @@ hr {
   margin: 35px 0;
   background: var(--accent1-color);
 }
-footer
-  {background-color: #016064;
-  color: white;}
+footer{
+  background-color: #016064;
+  color: white;
+}
 footer p {padding: 25px;}
 header {
   padding: 1em;
@@ -185,6 +225,11 @@ nav a {
   text-decoration: none;
   padding: 35px;
 }
+.mountains {
+   width: 100%;
+   grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
@@ -265,4 +310,59 @@ nav{
   grid-column: 2/3;
   grid-row: 1/2;
   margin-top: 100px;
+}
+.card-img, .mountains {
+  width: 100%;
+}
+.rivers-card from column lines 2–4 and row lines 2–3
+
+.camping-card from column lines 5–7 and row lines 2–3
+
+.rapids-card from column lines 8–10 and row lines 2–3
+
+#background from column lines 1–11 and row lines 4–9
+
+.mountains from column lines 2–7 and row lines 5–8
+
+.msg from column lines 6–10 and row lines 6–7
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
