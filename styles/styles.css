@@ -1,80 +1,107 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
-  }
+}
+
 nav a {
     text-align: center;
-    color: black;
+    color: #333333; /* Updated: Use a darker shade for better contrast */
     text-decoration: none;
-  }
-#hero-msg h1, #hero-msg h4 {
+}
+
+#hero-msg h1,
+#hero-msg h4 {
     text-align: center;
-  }
+}
+
 .button-box {
     text-align: center;
-  }
+}
+
 main section {
-    text-align: center;}
+    text-align: center;
+}
+
 #background {
     height: 725px;
-  }
+}
+
 body {
-    background-color: aliceblue;
+    background-color: #F8F8F8; /* Updated: Use a slightly warmer off-white shade */
 }
+
 header {
-    background-color: azure;
+    background-color: #EFEFEF; /* Updated: Use a slightly warmer shade for contrast */
 }
+
 nav a:hover {
-    background-color: aqua;
-    color: aquamarine;
+    background-color: #00B8D9; /* Updated: Use a vibrant and contrasting color */
+    color: #FFFFFF; /* Updated: Use white text for better visibility */
 }
-.book, .join {
-    background-color: white;
-    color: black;
+
+.book,
+.join {
+    background-color: #FFFFFF;
+    color: #333333;
     text-decoration: none;
 }
-.book:hover, .join:hover {
-    background-color: blue;
-    color: black;
+
+.book:hover,
+.join:hover {
+    background-color: #3772FF; /* Updated: Use a brighter shade of blue */
+    color: #333333;
 }
+
 #background {
-    background-color: blue;
+    background-color: #3772FF; /* Updated: Use a brighter shade of blue */
 }
+
 .msg {
-    background-color: antiquewhite;
+    background-color: #F5F5F5; /* Updated: Use a lighter shade of gray */
 }
+
 footer {
-    background-color: azure;
-    color: black;
+    background-color: #EFEFEF; /* Updated: Use a slightly warmer shade for contrast */
+    color: #333333;
 }
+
 .home-title {
-    color: azure;
-} 
+    color: #EFEFEF; /* Updated: Use a slightly warmer shade for better contrast */
+}
+
 h4 {
-    color: black;
+    color: #333333;
 }
+
 .msg h2 {
-    color: black;
+    color: #333333;
 }
+
 .msg p {
-    color: black;
+    color: #333333;
 }
+
 footer a {
-    color: black;
+    color: #333333;
     text-decoration: none;
 }
+
 footer a:hover {
-    color: lightseagreen;
+    color: #00CED1; /* Updated: Use a brighter shade of cyan */
 }
+
 .logo {
     width: 80px;
 }
+
 .icon {
     width: 80px;
 }
+
 footer p {
     font-size: 1.2em;
 }
+
 footer p a:hover {
     text-decoration: underline;
 }
