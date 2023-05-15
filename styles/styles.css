@@ -35,8 +35,8 @@ header {
 }
 
 nav a:hover {
-    background-color: #00B8D9; /* Updated: Use a vibrant and contrasting color */
-    color: #FFFFFF; /* Updated: Use white text for better visibility */
+    background-color: #3772FF; /* Updated: Use a vibrant and contrasting color */
+    color: #333333; /* Updated: Use white text for better visibility */
 }
 
 .book,
