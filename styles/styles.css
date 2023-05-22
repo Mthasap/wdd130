@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +8,7 @@ nav a {
     text-align: center;
     color: #333333; /* Updated: Use a darker shade for better contrast */
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1,
@@ -21,6 +23,9 @@ nav a {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 
 #background {
     height: 725px;
@@ -28,6 +33,10 @@ main section {
 
 body {
     background-color: #F8F8F8; /* Updated: Use a slightly warmer off-white shade */
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -44,6 +53,10 @@ nav a:hover {
     background-color: #FFFFFF;
     color: #333333;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover,
@@ -58,19 +71,29 @@ nav a:hover {
 
 .msg {
     background-color: #F5F5F5; /* Updated: Use a lighter shade of gray */
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #EFEFEF; /* Updated: Use a slightly warmer shade for contrast */
     color: #333333;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
+    font-family: 'Rock Salt', cursive;
     color: #333333; /* Updated: Use a slightly warmer shade for better contrast */
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
     color: #333333;
+}
+h2 {
+    margin: 0;
 }
 
 .msg h2 {
@@ -79,6 +102,8 @@ h4 {
 
 .msg p {
     color: #333333;
+    font-size: 8em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -96,6 +121,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 footer p {
@@ -104,4 +130,16 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 20px 0;
+}
+.card-img {
+    border: 10px solid rgb(43, 90, 62);
 }
