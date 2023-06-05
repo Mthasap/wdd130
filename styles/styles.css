@@ -84,7 +84,7 @@ footer {
 
 .home-title {
     font-family: 'Rock Salt', cursive;
-    color: #333333; /* Updated: Use a slightly warmer shade for better contrast */
+    color: rgb(255, 252, 252); /* Updated: Use a slightly warmer shade for better contrast */
     font-size: 2em;
     margin-top: 10px;
 }
@@ -167,7 +167,4 @@ nav {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-}
-#hero-message h4 {
-    color: white;
 }
