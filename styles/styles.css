@@ -14,7 +14,6 @@ nav a {
 #hero-msg h1,
 #hero-msg h4 {
     text-align: center;
-    color: white;
 }
 
 .button-box {
@@ -168,4 +167,7 @@ nav {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
+}
+#hero-message h4 {
+    color: white;
 }
