@@ -156,3 +156,7 @@ nav {
     justify-self: center;
     align-self: center;
 }
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
