@@ -143,3 +143,7 @@ footer .social img {
 .card-img {
     border: 10px solid rgb(43, 90, 62);
 }
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
