@@ -246,6 +246,38 @@ footer {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* rivers-card */
+  .rivers-card {
+    background-color: #FFFFFF;
+    border: 1px solid #EDEDED;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .rivers-card .card-img {
+    width: 100%;
+    border: 10px solid rgb(43, 90, 62);
+  }
+  
+  .rivers-card .icon {
+    width: 80px;
+    padding-top: 10px;
+  }
+  
+  .rivers-card h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333333;
+  }
+  
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
